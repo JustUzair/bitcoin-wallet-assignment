@@ -9,7 +9,6 @@ const path = require("path");
 const bip32 = BIP32Factory(ecc);
 const ECPair = ECPairFactory(ecc);
 const wallets = require(path.join(__dirname, "../../wallets.json"));
-const walletJSONPath = path.join(__dirname, "../../wallets.json");
 exports.ImportWallet = async () => {
   const userName = await input("Enter your username : ");
   if (wallets[userName] == undefined) {
