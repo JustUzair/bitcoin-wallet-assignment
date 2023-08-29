@@ -15,16 +15,24 @@ const { input, readline } = require("./src/utils/cmd-input-prompt");
 
 async function main() {
   while (
-    (choice =
-      parseInt(
-        await input(
-          `1.Create Wallet\n2.Import Wallet\n3.List all wallets\n4.Get Balance\n5.Get Wallet TXs\n6.Generate unused wallet address\n Your choice: `
-        )
-      ) != 7)
+    choice =
+    parseInt(
+      await input(
+        `1.Create Wallet\n2.Import Wallet\n3.List all wallets\n4.Get Balance\n5.Get Wallet TXs\n6.Generate unused wallet address\n Your choice: `
+      )
+    )
   ) {
+    console.log(choice)
     switch (choice) {
-      case 7:
+      case 1:
+        console.log("here")
+        CreateWallet()
         break;
+      case 7:
+        readline.close();
+        return;
+      default:
+        console.log("Invalid choice...")
     }
   }
   readline.close();
