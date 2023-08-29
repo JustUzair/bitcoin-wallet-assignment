@@ -14,7 +14,7 @@ exports.GetBalance = async () => {
       walletAddress > 35
     ) {
       console.log("ERROR 💥💥: Please enter a valid wallet address");
-      readline.close();
+
       return;
     }
     const { data } = await axios.get(
@@ -29,5 +29,4 @@ exports.GetBalance = async () => {
   } catch (err) {
     console.log(`Error 💥💥 : ${err.response.data.error}`);
   }
-  readline.close();
 };

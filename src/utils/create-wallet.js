@@ -15,7 +15,7 @@ exports.CreateWallet = async () => {
   const name = await input("What's your name? ");
   if (name.length == 0) {
     console.log("Error 💥💥: Name cannot be empty!!");
-    readline.close();
+
     return;
   }
   const mnemonic = bip39.generateMnemonic().toString();
@@ -49,6 +49,4 @@ exports.CreateWallet = async () => {
   }
 
   fs.writeFileSync(walletJSONPath, JSON.stringify(wallets));
-
-  readline.close();
 };

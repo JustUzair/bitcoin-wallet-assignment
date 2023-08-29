@@ -18,7 +18,7 @@ exports.ImportWallet = async () => {
   const mnemonic = await input("Enter your mnemonic to import the wallet: ");
   if (mnemonic.length == 0 || mnemonic.split(" ").length != 12) {
     console.log("ERROR 💥💥: Please enter a 12 word mnemonic");
-    readline.close();
+
     return;
   }
   const found = wallets[userName].find((wallet) => {
@@ -28,10 +28,10 @@ exports.ImportWallet = async () => {
     console.log(
       "ERROR 💥💥: Combination of the given username and mnemonic does not exist"
     );
-    readline.close();
+
     return;
   }
-  console.log(found);
+  // console.log(found);
   const userWalletAddresses = [];
   for (let i = 0; i < found.accounts; i++) {
     const seed = bip39.mnemonicToSeedSync(mnemonic);
@@ -53,5 +53,4 @@ exports.ImportWallet = async () => {
     " Your Wallet Address(s) for the mnemonic: ",
     userWalletAddresses.join(", ")
   );
-  readline.close();
 };

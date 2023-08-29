@@ -19,7 +19,7 @@ exports.GetAllWalletTx = async () => {
       const { txs } = response.data;
       if (txs.length == 0) {
         console.log(`No TX found on ${address} address`);
-        readline.close();
+
         return;
       }
       txs.map((tx) => {
@@ -47,5 +47,4 @@ exports.GetAllWalletTx = async () => {
   } catch (error) {
     console.error("Error:", error.message);
   }
-  readline.close();
 };

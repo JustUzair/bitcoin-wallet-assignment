@@ -69,11 +69,10 @@ exports.GenerateUnusedAddress = async () => {
         }
       );
       if (unusedAddress == undefined) {
-        createAccountFromMnemonic(mnemonic, userName, index);
+        await createAccountFromMnemonic(mnemonic, userName, index);
       } else {
         console.log("Un-used address found, please use it : ", unusedAddress);
       }
     }
   });
-  readline.close();
 };

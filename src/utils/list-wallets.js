@@ -9,7 +9,7 @@ exports.ListWallets = async () => {
   const userWallets = wallets[name];
   if (userWallets == undefined) {
     console.log("ERROR 💥💥: No wallets associated to this user were found");
-    readline.close();
+
     return;
   }
   // console.log(userWallets);
@@ -19,5 +19,4 @@ exports.ListWallets = async () => {
       console.log(`\tAddress : ${addr} `);
     });
   });
-  readline.close();
 };
