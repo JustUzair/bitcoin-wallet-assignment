@@ -1,0 +1,16 @@
+https://github.com/bitcoinjs/bitcoinjs-lib/blob/master/test/integration/addresses.spec.ts
+
+https://www.npmjs.com/package/bitcoinjs-lib
+
+https://learnmeabitcoin.com/technical/derivation-paths
+
+BTC TESTNET FAUCET 1 :: https://coinfaucet.eu/en/btc-testnet/
+BTC TESTNET FAUCET 2 :: https://testnet-faucet.com/btc-testnet/
+
+BlockCypyher Developers https://www.blockcypher.com/getting-started.html
+
+
+Satoshi to BTC Conversion : https://www.finder.com/satoshi-to-bitcoin-conversion-calculator
+
+
+Bitcoin addresses : https://bitcoin.design/guide/glossary/address/#:~:text=A%20bitcoin%20address%20is%20a,is%20used%20to%20receive%20bitcoin.

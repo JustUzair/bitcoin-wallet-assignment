@@ -1,0 +1,34 @@
+{
+  "Uzair": [
+    {
+      "mnemonic": "oil garment skull glad pudding horror increase raccoon still lecture salon guitar",
+      "address": [
+        "mjDtD8cLcVNQBBbQhnipou9Wd6yLns1Vhv",
+        "mvUv2RRvPSwp2YWn1KUwmBoEuGhw1VRjLe"
+      ],
+      "accounts": 2
+    }
+  ],
+  "JustUzair": [
+    {
+      "mnemonic": "pigeon demise embrace reopen write sting trim true recipe napkin labor recycle",
+      "address": ["moYSWJDKAf6GJ2gGx79xMZZZfj3hYn3vFJ"],
+      "accounts": 1
+    },
+    {
+      "mnemonic": "flush decrease guitar resemble enemy play arrange wear divide wage punch gasp",
+      "address": ["mihKnyx57j4W8vft6wnau6pdzcL6y1vqER"],
+      "accounts": 1
+    },
+    {
+      "mnemonic": "basket item cactus holiday kiss visual ship trash range art tiger unique",
+      "address": ["mqU7e4BGF8Kp4hcsczSDLdaTiS4esMp5nC"],
+      "accounts": 1
+    },
+    {
+      "mnemonic": "guitar ill frequent cradle cherry case all kitten session cousin high kick",
+      "address": ["mgizrcWGB94xq28z7uyveTdAJvYr7FNZZV"],
+      "accounts": 1
+    }
+  ]
+}
