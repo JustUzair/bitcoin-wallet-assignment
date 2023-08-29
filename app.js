@@ -22,8 +22,9 @@ async function main() {
         )
       ) != 7)
   ) {
-    if (choice == 7) {
-      break;
+    switch (choice) {
+      case 7:
+        break;
     }
   }
   readline.close();
